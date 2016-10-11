@@ -33,6 +33,12 @@ that took longer than ten seconds to finish.
     $ . undistract-me/long-running.bash
     $ notify_when_long_running_commands_finish_install
 
+### From git
+
+    $ git clone https://github.com/jml/undistract-me.git
+    $ . undistract-me/long-running.bash
+    $ notify_when_long_running_commands_finish_install
+
 ### From a PPA
 
     $ sudo add-apt-repository ppa:undistract-me-packagers/daily
